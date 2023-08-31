@@ -39,13 +39,17 @@ from sklearn.metrics import accuracy_score
 
 
 class BayesClassifier:
+
   def __init__(self):
+  
     self.clf = GaussianNB()
 
   def fit(self, X, y):
+  
     self.clf.fit(X, y)
 
   def predict(self,X):
+  
     return self.clf.predict(X)
 
 
@@ -60,6 +64,7 @@ clf.fit(X_train, y_train)
 y_pred=clf.predict(X_test)
 
 accuracy =  accuracy_score(y_test, y_pred)
+
 print("Accuracy = ",accuracy)
 
 ## Output:
