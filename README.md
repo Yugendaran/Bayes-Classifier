@@ -28,9 +28,13 @@ NAME : YUGENDARAN.G
 REG NO : 212221220063
 
 import numpy as np
+
 from sklearn.datasets import load_iris
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.metrics import accuracy_score
 
 
