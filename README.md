@@ -41,16 +41,13 @@ from sklearn.metrics import accuracy_score
 class BayesClassifier:
 
   def __init__(self):
-  
-    self.clf = GaussianNB()
+  self.clf = GaussianNB()
 
   def fit(self, X, y):
-  
-    self.clf.fit(X, y)
+  self.clf.fit(X, y)
 
   def predict(self,X):
-  
-    return self.clf.predict(X)
+  return self.clf.predict(X)
 
 
 iris = load_iris()
