@@ -23,7 +23,7 @@ Output:
 
 ## Program:
 ```
-NAME : YUGENDARAN.G
+DEVELOPED BY : YUGENDARAN.G
 REG NO : 212221220063
 
 import numpy as np
@@ -58,9 +58,8 @@ accuracy =  accuracy_score(y_test, y_pred)
 print("Accuracy = ",accuracy)
 ```
 ## Output:
-''' Output screen shots here
 
-/home/student/Screenshot from 2023-08-31 16-09-09.png
+![image](https://github.com/Yugendaran/Bayes-Classifier/assets/128135616/35557555-9ea4-4e66-bce2-40d86a0ef836)
 
 
 ## Result:
