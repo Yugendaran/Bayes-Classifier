@@ -1,4 +1,6 @@
-# Bayes-Classifier
+# EX NO : 02 Implementation of Bayes-Classifier
+## DATE : 31.08.2023
+
 ## Aim:
 To Construct a Bayes Classifier to classiy iris dataset using Python.
 ## Algorithm:
